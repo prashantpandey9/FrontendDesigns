@@ -93,3 +93,20 @@ body{
     color: var(--dark-grayish-blue);
     font-weight: 400;
 }
+
+
+@media (max-width: 375px){
+    body{
+        max-width: 375px;
+        background-position: top -40rem left -40rem, bottom -40rem right -45rem;
+        background-repeat: no-repeat;
+    }
+    .profile-card{
+        padding: 5px;
+    }
+    .header{
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
