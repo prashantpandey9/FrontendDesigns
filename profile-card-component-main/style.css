@@ -19,18 +19,19 @@ body{
     font-family: "Kumbh Sans";
     background-color: var(--dark-cyan);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-position: top -30rem left -20rem, bottom -50rem right -10rem;
+    background-position: top -30rem left -20rem, bottom -40rem right -20rem;
     background-repeat: no-repeat;
-    /* transform: rotate(-43deg); */
 }
 
 .profile-card {
     display: flex;
     flex-direction: column;
     width: 350px;
+    padding-bottom: 50px;
+    
 }
 .header {
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 .background {
     border-top-left-radius: 10px;
@@ -70,9 +71,12 @@ body{
     font-weight: 700;
 }
 
-.footer__span {
+.span {
     display: block;
     font-size: .9rem;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    
 }
 
 .author { 
@@ -84,4 +88,8 @@ body{
 .author a { 
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
+}
+.age,.city{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
 }
