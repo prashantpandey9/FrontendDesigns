@@ -27,15 +27,13 @@ body{
     max-width: 1440px;
     font-size: 12px;
     font-family: 'Kumbh Sans';
-    background-image: linear-gradient(to right, var(--soft-violet), var(--soft-blue));
-    /* background-repeat: no-repeat;
-    background-position: cover; */
+    background-image: linear-gradient(to bottom, var(--soft-violet), var(--soft-blue));
 }
 .faq-card {
     display: flex;
     flex-direction: column;
-    width: 799px;
-    padding-bottom: 50px;
+    width: 899px;
+    padding-bottom: 50px;   
     margin-top: 20vh;
 }
 
@@ -43,24 +41,55 @@ body{
     border-radius: 23px;
     background-color: white;
     width: 100%;
-    margin-top: -10px;
+    /* margin-top: -10px; */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 90px 0 30px 0;
+    /* padding: 20px; */
     position: relative;
     background-image: url('images/bg-pattern-desktop.svg');
-    background-position: top -20rem left -40rem;
+    background-position: top -19rem left -36rem;
     background-repeat: no-repeat;
     
 }
 .left-section{
-    width: 50%;
     float: left;
-
+    width: 50%;
+    /* padding: 10px; */
+    background-image: url('images/illustration-woman-online-desktop.svg');
+    background-position: top 3rem left -5rem;
+    background-repeat: no-repeat;
+    min-height:80vh;
 }
 .right-section{
+    /* float: left; */
     width: 50%;
+    padding-right: 50px;
+}
+.box{
+	position: relative;
+	left: -93px;
+    top: 185px;
+}
+.girl{
+	position: relative;
+	left: -151px;
+	overflow: hidden;
+	width: 400px;
+}
+.questions{
+    /* padding: 40px; */
+}
+.ques{
+
+}
+span{
     float: right;
+
+}
+
+.divider{
+    margin: 15px 0px;
+    border-top: 1px solid var(--light-grayish-blue);
+    
 }
