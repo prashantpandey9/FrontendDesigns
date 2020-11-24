@@ -1,4 +1,4 @@
-@import 'https://fonts.google.com/specimen/Kumbh+Sans';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
 
 
 :root {
@@ -101,7 +101,7 @@ span{
 }
 .ques_active{
     color: var(--very-dark-desaturated-blue);
-    font-weight: 600;
+    font-weight: 700;
 }
 .ans_active{
     display: block;
@@ -115,6 +115,6 @@ span{
 .close{
     transition: all 0.5s ease;
 }
-#button{
+.button{
     cursor: pointer;
 }
