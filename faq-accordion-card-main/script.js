@@ -1,4 +1,4 @@
-let button = document.querySelectorAll('#button');
+let button = document.querySelectorAll('.button');
 
 let faqAnswer = document.querySelectorAll('.ans');
 
