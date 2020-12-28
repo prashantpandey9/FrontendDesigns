@@ -118,3 +118,21 @@ span{
 .button{
     cursor: pointer;
 }
+
+@media(max-width: 375px){
+    .left-section{
+        float: left;
+        /* width: 50%; */
+        /* padding: 10px; */
+        background-image: url('images/illustration-woman-online-desktop.svg');
+        background-position: top 3rem left -5rem;
+        background-repeat: no-repeat;
+        min-height:80vh;
+    }
+    .right-section{
+        /* float: left; */
+        /* width: 50%; */
+        padding-right: 50px;
+    }
+
+}

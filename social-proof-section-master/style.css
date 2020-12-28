@@ -1,0 +1,23 @@
+@import url(https://fonts.google.com/specimen/Spartan);
+:root{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Spartan';
+    font-weight: 400;
+}
+body{
+    max-width: 1440px;
+    /* background-color: var(--dark-cyan);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: top -30rem left -20rem, bottom -40rem right -20rem;
+    background-repeat: no-repeat; */
+}
