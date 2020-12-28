@@ -6,6 +6,7 @@
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +15,19 @@
     font-family: 'Spartan';
     font-weight: 400;
 }
+
 body{
     max-width: 1440px;
-    /* background-color: var(--dark-cyan);
-    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-position: top -30rem left -20rem, bottom -40rem right -20rem;
-    background-repeat: no-repeat; */
+    background-color: var(--white);
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-position: top 0rem left 0rem, bottom -52rem right 0rem;
+    background-repeat: no-repeat;
+}
+@media(max-width:375px){
+    body{
+        background-color: var(--white);
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top 0rem left 0rem, bottom -52rem right 0rem;
+        background-repeat: no-repeat;
+    }
 }
