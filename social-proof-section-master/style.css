@@ -23,15 +23,6 @@ body{
     background-position: top 0rem left 0rem, bottom -25rem right 0rem;
     background-repeat: no-repeat;
 }
-@media(max-width:375px){
-    body{
-        background-color: var(--white);
-        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        background-position: top 0rem left 0rem, bottom -52rem right 0rem;
-        background-repeat: no-repeat;
-    }
-}
-
 .container{
     display: flex;
     flex-direction: row;
@@ -93,7 +84,6 @@ body{
 .container-card{
     display: flex;
     flex-direction: row;
-    width: 100%; 
     margin-top: 7vh;
     margin-left: 100px;
 }
@@ -102,11 +92,188 @@ body{
     height: 200px;
     background-color: var(--very-dark-magenta);
     border-radius: 10px;
+    padding: 30px;
+    margin-right: 40px;
 }
-..profile-photo{
-    padding-left: 50px;
-}
+
 .profile-photo img{
     border-radius: 50%;
-    width: 50px;
+    width: 40px;
+}
+.name-plate-top{
+    display: flex;
+    flex-direction: row;
+}
+.name-plate{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.name, .speech{
+    font-size: 12px;
+    color: var(--white);
+    font-weight: 700;
+}
+.plate{
+    font-size: 12px;
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+
+.speech{
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--white);
+    font-weight: 500;
+    
+}
+
+.card2{
+    margin-top: 20px;
+}
+.card3{
+    margin-top: 40px;
+}
+
+
+
+@media(max-width:375px){
+
+    /* For Body when mobile */
+
+    body{
+        background-color: var(--white);
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top 0rem left 0rem, bottom -52rem right 0rem;
+        background-repeat: no-repeat;
+    }
+
+    /* Top desgin */
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin-top: 12vh;
+        justify-content: center;
+    
+    }
+    /* Left Headline  */
+    .top-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .headline{
+        color: var(--very-dark-magenta);
+        font-size: 30px;
+        font-weight: 700;
+        padding: 30px;
+        text-align: center;
+    }
+    .small-text{
+        color: var(--dark-grayish-magenta);
+        line-height: 1.5;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Top Right */
+    .top-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .second{
+        margin-left: 0px;
+    }
+    .third{
+        margin-left: 0px;
+    }
+    .stars-top-right{
+        background-color: var(--light-grayish-magenta);
+        width: 80%;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+    .img-star{
+        padding: 0px 3px;
+        justify-items: center;
+    }
+    
+    .star-text{
+        color: var(--very-dark-magenta);
+        font-weight: 700;
+        font-size: 13px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    /* For Card Container */
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin-top: 7vh;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .profile-card{
+        width: 300px;
+        height: 200px;
+        background-color: var(--very-dark-magenta);
+        border-radius: 10px;
+        padding: 30px;
+        margin-right: 0px;
+
+    }
+    
+    .profile-photo img{
+        border-radius: 50%;
+        width: 40px;
+    }
+    .name-plate-top{
+        display: flex;
+        flex-direction: row;
+    }
+    .name-plate{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    
+    .name, .speech{
+        font-size: 12px;
+        color: var(--white);
+        font-weight: 700;
+    }
+    .plate{
+        font-size: 12px;
+        color: var(--soft-pink);
+        font-weight: 400;
+    }
+    
+    .speech{
+        margin-top: 20px;
+        font-size: 12px;
+        color: var(--white);
+        font-weight: 500;
+        
+    }
+    
+    .card2{
+        margin-top: 20px;
+    }
+    .card3{
+        margin-top: 20px;
+    }
+    
 }
