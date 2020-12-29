@@ -31,3 +31,48 @@ body{
         background-repeat: no-repeat;
     }
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 50px;   
+    margin-top: 12vh;
+    justify-content: center;
+
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.headline{
+    color: var(--very-dark-magenta);
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px 50px 10px 120px;
+}
+.small-text{
+    color: var(--dark-grayish-magenta);
+    padding: 0px 50px 20px 150px;
+    line-height: 1.5;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px;
+}
+
+.stars-top-right{
+    background-color: var(--light-grayish-magenta);
+    width: 60%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.img-star{
+    padding: 0px 3px;
+}
