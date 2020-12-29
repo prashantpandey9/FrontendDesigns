@@ -20,14 +20,14 @@ body{
     max-width: 1440px;
     background-color: var(--white);
     background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
-    background-position: top 0rem left 0rem, bottom -25rem right 0rem;
+    background-position: top 0rem left 0rem, bottom -2rem right 0rem;
     background-repeat: no-repeat;
 }
 .container{
     display: flex;
     flex-direction: row;
     width: 100%; 
-    margin-top: 12vh;
+    margin-top: 5vh;
     justify-content: center;
 
 }
@@ -75,6 +75,7 @@ body{
     font-size: 13px;
     margin-left: 20px;
 }
+
 .second{
     margin-left: 40px;
 }
@@ -86,6 +87,7 @@ body{
     flex-direction: row;
     margin-top: 7vh;
     margin-left: 100px;
+    margin-bottom: 50px;
 }
 .profile-card{
     width: 300px;
@@ -108,7 +110,6 @@ body{
     margin-left: 20px;
     margin-top: 5px;
 }
-
 .name, .speech{
     font-size: 12px;
     color: var(--white);
@@ -135,7 +136,10 @@ body{
     margin-top: 40px;
 }
 
-
+.star-group{
+    display: initial;
+    padding: 0px;
+}
 
 @media(max-width:375px){
 
@@ -144,7 +148,7 @@ body{
     body{
         background-color: var(--white);
         background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        background-position: top 0rem left 0rem, bottom -52rem right 0rem;
+        background-position: top 0rem left 0rem, bottom -2rem right 0rem;
         background-repeat: no-repeat;
     }
 
@@ -194,6 +198,12 @@ body{
     .third{
         margin-left: 0px;
     }
+    .star-group{
+        justify-content: center;
+        display: flex;
+        padding: 15px;
+    }
+    
     .stars-top-right{
         background-color: var(--light-grayish-magenta);
         width: 80%;
