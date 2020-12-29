@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Spartan);
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 :root{
     --very-dark-magenta: hsl(300, 43%, 22%);
     --soft-pink: hsl(333, 80%, 67%);
@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     font-weight: 400;
 }
 
@@ -20,7 +20,7 @@ body{
     max-width: 1440px;
     background-color: var(--white);
     background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
-    background-position: top 0rem left 0rem, bottom -52rem right 0rem;
+    background-position: top 0rem left 0rem, bottom -25rem right 0rem;
     background-repeat: no-repeat;
 }
 @media(max-width:375px){
@@ -35,8 +35,7 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding-bottom: 50px;   
+    width: 100%; 
     margin-top: 12vh;
     justify-content: center;
 
@@ -49,30 +48,65 @@ body{
 }
 .headline{
     color: var(--very-dark-magenta);
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
-    padding: 50px 50px 10px 120px;
+    padding: 50px 0px 10px 100px;
 }
 .small-text{
     color: var(--dark-grayish-magenta);
-    padding: 0px 50px 20px 150px;
+    padding-left: 100px;
     line-height: 1.5;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .top-right{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: 50px;
+    width: 70%;
+    margin: 50px 0px 0px 120px ;
 }
 
 .stars-top-right{
     background-color: var(--light-grayish-magenta);
     width: 60%;
     margin-top: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
 }
 .img-star{
     padding: 0px 3px;
+}
+
+.star-text{
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.second{
+    margin-left: 40px;
+}
+.third{
+    margin-left: 80px;
+}
+.container-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    margin-top: 7vh;
+    margin-left: 100px;
+}
+.profile-card{
+    width: 300px;
+    height: 200px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+}
+..profile-photo{
+    padding-left: 50px;
+}
+.profile-photo img{
+    border-radius: 50%;
+    width: 50px;
 }
