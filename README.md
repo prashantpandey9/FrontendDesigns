@@ -14,5 +14,5 @@ This repo contains various frontend tasks solutions from [Frontendmentor.io](htt
     * [Code](https://github.com/prashantpandey9/FrontendDesigns/tree/main/social-proof-section-master)
 
 4. Social Media Dashboard
-    * [Live Demo]()
-    * [Code]()
+    * [Live Demo](https://social-media-dashboard-six-virid.vercel.app/)
+    * [Code](https://github.com/prashantpandey9/FrontendDesigns/tree/main/social-media-dashboard-with-theme-switcher-master)
