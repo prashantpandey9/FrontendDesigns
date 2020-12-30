@@ -33,6 +33,12 @@
     font-size: 14px;
     box-sizing: border-box;
     max-width: 1440px;
+    transition: all 0.5s;
+}
+body{
+    position: relative;
+    z-index: -1;
+    background-color: var(--bg);
 }
 
 input[type=checkbox]{
@@ -56,7 +62,7 @@ label::after {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: #000;
+	background-color: var(--bg);
 	top: 3px;
 	left: 2px;
 	transition: all 0.5s;
@@ -75,11 +81,11 @@ input[type=checkbox]:checked + label::after{
     width: 100%;
     padding-top: 40px;
     background-color: var(--Top-BG-Pattern);
-    padding-bottom: 60px;
+    padding-bottom: 140px;
 }
 .heading1{
     color: var(--Text2);
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 .heading1 h1{
@@ -106,4 +112,96 @@ input[type=checkbox]:checked + label::after{
     font-size: 14px;
     font-weight: 700;
     
+}
+.mid-card-container{
+    margin-left: 100px;
+    transform: translateY(-100px);
+    display: flex;
+    flex-direction: row;
+    
+}
+.mid-card{
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: var(--Card-BG);
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+.mid-card:hover{
+    background-color: var(--active);
+}
+
+.facebook{
+    border-top: 3px var(--Facebook) solid;
+}
+.twitter{
+    border-top: 3px var(--Twitter) solid;
+}
+.instagram{
+    border-top: solid  3px;
+    border-color: var(--Instagram);
+    border-top: 4px solid transparent;
+    border-image-slice: 1 0 0 0;
+    border-image-source: var(--Instagram);
+    
+    
+}
+.youtube{
+    border-top: 3px var(--YouTube) solid;
+}
+
+.user-icon {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+    padding-top: 22px;
+}
+.user-icon span{
+    padding-left: 5px;
+    color: var(--Text1);
+    font-weight: 700;
+}   
+
+.follower{
+    align-items: center;
+	display: flex;
+	justify-content: center;
+    padding-top: 22px;
+    flex-direction: column;
+}
+.follower .count{
+    font-size: 50px;
+    color: var(--Text2);
+    font-weight: 700;
+}
+
+.follower .folllow{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--Text1);
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.stats{
+    align-items: center;
+	display: flex;
+	justify-content: center;
+    padding-top: 30px;
+    flex-direction: row;
+}
+.stats .up{
+    color: var(--lime-Green);
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.stats .down{
+    color: var(--Bright-Red);
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
 }
