@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,9 +15,30 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="darkTheme">
 
-  Social Media Dashboard
+  <div class="header">
+    <div class="heading1">
+      <h1>Social Media Dashboard</h1>
+      <div>Total Followers: 23,004</div>
+    </div>
+    
+    <div class="toggle">
+        <p id="mode"> Dark Mode</p>
+        <input type="checkbox" id="switch" />
+        <label for="switch"></label>
+    </div>
+  </div>
+
+  <div class="mid-card">
+    <div class="user-icon"></div>
+    <div class="follower">
+
+    </div>
+  </div>
+
+
+  <!-- Social Media Dashboard
   Total Followers: 23,004
 
   Dark Mode
@@ -82,6 +104,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
