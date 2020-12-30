@@ -74,7 +74,6 @@ input[type=checkbox]:checked + label::after{
     background-color: #fff; 
 }
 
-
 .header{
     display: flex;
     flex-direction: row;
@@ -103,7 +102,6 @@ input[type=checkbox]:checked + label::after{
 	position: relative;
 	left: 600px;
 	text-align: center;
-	margin: ;
 }
 
 #mode{
@@ -130,8 +128,9 @@ input[type=checkbox]:checked + label::after{
     margin-right: 35px;
 }
 
-.mid-card:hover{
+.mid-card:hover, .footer-card:hover{
     background-color: var(--active);
+    cursor: pointer;
 }
 
 .facebook{
@@ -204,4 +203,74 @@ input[type=checkbox]:checked + label::after{
     padding-left: 5px;
     font-size: 12px;
     font-weight: 700;
+}
+.footer{
+    color: var(--Text2);
+    padding-left: 100px;
+    margin-top: -35px;
+}
+.footer h1 {
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.footer-card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-card{
+    width: 250px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: var(--Card-BG);
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+.footer-card-top{
+    display: flex;
+    padding: 20px;
+}
+.footer-card-top .name{
+    color: var(--Text1);
+    font-weight: 700;
+    width: 50%;
+}
+
+.footer-card-top .img {
+	display: flex;
+	justify-content: right;
+	width: 50%;
+}
+
+.footer-card-bottom{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+}
+.upcount{
+    font-size: 30px;
+    font-weight: 700;
+    width: 50%;
+}
+.footer-card-bottom .up {
+	top: 21px;
+	position: relative;
+    left: 70px;
+    color: var(--lime-Green);
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 20px;
+
+}
+.footer-card-bottom .down {
+	top: 21px;
+	position: relative;
+    left: 70px;
+    color: var(--Bright-Red);
+    font-size: 12px;
+    font-weight: 700;
+
 }
