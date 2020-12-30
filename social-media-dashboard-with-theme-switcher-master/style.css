@@ -44,7 +44,8 @@ body{
 input[type=checkbox]{
 	height: 0;
 	width: 0;
-	visibility: hidden;
+    visibility: hidden;
+    
 }
 label {
 	cursor: pointer;
@@ -65,13 +66,14 @@ label::after {
 	background-color: var(--bg);
 	top: 3px;
 	left: 2px;
-	transition: all 0.5s;
+    transition: all 0.5s;
+    transform: translateX(25px);
 }
 
 input[type=checkbox]:checked + label::after{
     transition: all 0.5s;
-    transform: translateX(25px);
-    background-color: #fff; 
+    transform: translateX(0px);
+    background-color: var(--bg);
 }
 
 .header{
