@@ -87,6 +87,7 @@ input[type=checkbox]:checked + label::after{
 .heading1{
     color: var(--Text2);
     padding-left: 100px;
+    width: 50%;
 }
 
 .heading1 h1{
@@ -101,9 +102,9 @@ input[type=checkbox]:checked + label::after{
 .toggle {
 	display: flex;
 	flex-direction: row;
-	position: relative;
-	left: 600px;
-	text-align: center;
+	width: 50%;
+	justify-content: right;
+	padding-right: 110px;
 }
 
 #mode{
@@ -118,7 +119,7 @@ input[type=checkbox]:checked + label::after{
     transform: translateY(-100px);
     display: flex;
     flex-direction: row;
-    
+
 }
 .mid-card{
     width: 250px;
@@ -207,7 +208,7 @@ input[type=checkbox]:checked + label::after{
     font-weight: 700;
 }
 .footer{
-    color: var(--Text2);
+    color: var(--Text1);
     padding-left: 100px;
     margin-top: -35px;
 }
@@ -275,4 +276,61 @@ input[type=checkbox]:checked + label::after{
     font-size: 12px;
     font-weight: 700;
 
+}
+
+
+hr{
+    display: none;
+}
+@media(max-width: 375px){
+    .mid-card-container{
+        margin-left: 45px;
+        transform: translateY(-100px);
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .footer-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-card{
+        margin-top: 20px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .toggle {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: right;
+        padding-right: 0px;
+        margin-top: 19px;
+        justify-content: space-between;
+        padding: 0 24px 0 24px;
+        
+    }
+    .heading1{
+        padding: 0px 24px 0px 24px;
+        width: 100%;
+    }
+    .heading1 h1{
+        font-size: 22px;
+        font-weight: 700;
+    
+    }
+    .footer{
+        color: var(--Text1);
+        padding-left: 45px;
+    }
+    hr{
+        display: block;
+        width: 85%;
+        margin: auto;
+        color: var(--Text1);
+        margin-top: 20px;
+    }
 }
