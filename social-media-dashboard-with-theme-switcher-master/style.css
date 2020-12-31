@@ -104,7 +104,8 @@ input[type=checkbox]:checked + label::after{
 	flex-direction: row;
 	width: 50%;
 	justify-content: right;
-	padding-right: 110px;
+    padding-right: 110px;
+    -webkit-padding-start: 400px;
 }
 
 #mode{
@@ -112,6 +113,7 @@ input[type=checkbox]:checked + label::after{
     color: var(--Text1);
     font-size: 14px;
     font-weight: 700;
+    -webkit-padding-end: 20px;
     
 }
 .mid-card-container{
@@ -245,7 +247,8 @@ input[type=checkbox]:checked + label::after{
 .footer-card-top .img {
 	display: flex;
 	justify-content: right;
-	width: 50%;
+    width: 50%;
+    -webkit-padding-start: 80px;
 }
 
 .footer-card-bottom{
@@ -311,7 +314,7 @@ hr{
         margin-top: 19px;
         justify-content: space-between;
         padding: 0 24px 0 24px;
-        
+        -webkit-padding-start: 27px;
     }
     .heading1{
         padding: 0px 24px 0px 24px;
