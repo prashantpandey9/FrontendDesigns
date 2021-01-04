@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --dark-blue-intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+    --dark-blue-main-background: hsl(218, 28%, 13%);
+    --dark-blue-footer-background: hsl(216, 53%, 9%);
+    --dark-blue-testimonials-background: hsl(219, 30%, 18%);
+
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+}
